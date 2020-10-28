@@ -101,6 +101,14 @@ public class Owner extends Person {
         return this.pets;
     }
 
+    public boolean getStatus() {
+        return this.status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
+
     protected void setPetsInternal(Set<Pet> pets) {
         this.pets = pets;
     }
